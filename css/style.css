@@ -1,0 +1,65 @@
+h4{
+	text-align: center;
+	font-family: serif;
+	font-size: 3em;
+	/*animation-duration: 3s;
+  	animation-name: slidein;
+  	animation-iteration-count: infinite;*/ /*Este codigo serve para animação infinita junto com o #*/
+
+
+}
+/*@keyframes slidein {
+from{
+	font-size: 3em;
+}
+to{
+	font-size: 4em;
+}*/
+
+table.striped > tbody > tr:nth-child(odd) {
+  background-color: #d9d9d9;
+}
+
+.hovering{
+	background-color: #ccc;
+}
+
+
+.a{
+	background-color: #26a69a !important; 
+}
+
+.colunaesq{
+	padding-top: 10px;
+}
+
+#divcarousel{
+	padding-top: 100px;
+}
+#letracarousel{
+	color:#FFFFFF; 
+	text-shadow:#000 1px -1px, #000 -1px 1px, #000 1px 1px, #000 -1px -1px;
+}
+
+#imagem img{
+	width: 80%;
+	height: 90%;
+	padding-top: 1em;
+}
+#contato {
+	margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding-left: 100px;
+    text-align: center;
+}
+
+.carrinho{
+	background-color: white;
+	color: #16a085;
+	margin-left: 5px;
+	font-weight: bold;
+	border: 2px solid white;
+	border-radius: 30%;
+}
+
