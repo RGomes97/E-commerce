@@ -3,9 +3,9 @@ require_once('user.php');
 require_once('backProd.php');
 
 
-$server 	= 'localhost';
-$user 		= 'root';
-$password 	= '';
+$server 	= 'mysql427.umbler.com';
+$user 		= 'rgomes97';
+$password 	= 'rg64567203';
 $database 	= 'graficaflaguris';
  
  # Conexão Mysql
