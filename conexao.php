@@ -6,7 +6,7 @@ require_once('backProd.php');
 $server 	= 'localhost';
 $user 		= 'root';
 $password 	= '';
-$database 	= 'graficaflaguris';
+$database 	= 'bolinhaquadrada';
  
  # Conexão Mysql
 @$mysqli = new mysqli($server,$user,$password,$database);
