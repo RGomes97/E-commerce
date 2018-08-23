@@ -63,3 +63,17 @@ table.striped > tbody > tr:nth-child(odd) {
 	border-radius: 30%;
 }
 
+.widget{
+	width: 70px;
+    height: 70px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background-color: transparent;
+    border-radius: 100%;
+    background-image: url(../img/whatsapp.png);
+    background-size: 60px 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
