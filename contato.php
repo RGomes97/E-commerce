@@ -54,8 +54,9 @@
 	  				<p>Guarulhos - SP</p><br />
 	  				<p>CEP: 07124-369</p><br />
 	  				<p>Telefone: (11) 2458-4662 / (11) 99684-1206</p></center><br />
-	  				
-	  
+	  				<center>
+	  				<a href="https://wa.me/5511996841206?text=Oi, estava navegando no site e queria um orçamento" target="_blank" class="btn waves-effect waves-light">Solicite orçamento pelo whatsapp</a>
+	  				<center>
         		</div>
         	</div>
         </div>
