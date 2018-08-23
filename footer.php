@@ -23,6 +23,8 @@
             </div>
           </div>
         </footer>
+        <a class="widget" href="https://wa.me/5511996841206?text=Oi, estava navegando no site e queria um orçamento" target="_blank">
+        </a>
 <script>
 $( document ).ready(function(){
    $(".button-collapse").sideNav();  
