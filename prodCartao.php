@@ -24,19 +24,7 @@ $return = $produto->listar('cartao');
 ?>
 <div class="row topos">
 
-	<div class="col s12 m12 l3 colunaesq z-depth-2">
-       <div class="collection">
-	      <a href="prodBanner.php" id="banners" class="collection-item active">Banners</a>
-	      <a href="prodBloco.php" id="blocos" class="collection-item ">Blocos</a>
-	      <a href="prodCartao.php" id="cartoes" class="collection-item">Cartão de Visitas</a>
-	      <a href="prodComanda.php" id="comandas" class="collection-item">Comandas</a>
-          <a href="prodEnvelope.php" id="envelopes" class="collection-item ">Envelopes</a>
-          <a href="prodFolheto.php" id="folhetos" class="collection-item">Folhetos</a>
-          <a href="prodPromocao.php" id="promocoes" class="collection-item">Promoções</a>
-          <a href="prodReceituario.php" id="receituarios" class="collection-item">Receituários</a>
-          <a href="prodTalao.php" id="taloes" class="collection-item">Talões</a>
-        </div>
-     </div>
+	<?php require 'sidebar.php' ?>
      <div class="col s12 m12 l9">
      <h4 style="background-color: #1abc9c; color: white; border-radius: 20px;"> Cartões de Visita </h4>
      </div>
