@@ -14,7 +14,7 @@
 
 </script>
 <?php
-require 'prodPromocao.php';
+require 'prodBloco.php';
 ?>
 </body>
 <?php
