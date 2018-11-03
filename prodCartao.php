@@ -47,6 +47,7 @@ $return = $produto->listar('cartao');
 			echo $value['descricao'].'<br />';
 			echo '<h6 style="color: #FFFFFF; font-size:22px;text-align: center; text-style:bold;border: transparent; border-radius: 10px; background-color: #1abc9c;">'.$value['preco'].'<h6>';
 			echo '</center></div>';
+			echo '<center><span style="color: #f12f12;" class="descricao">Codigo: '.$value['id'].'</span><br /></center>';
 			echo '<div class="card-action">';
 			echo '<center><a href="prodCartao.php?prod='.$value['id'].'" class="btn waves-effect waves "><i class="material-icons right">shopping_cart</i> Add +</a>
 		                <button class="btn waves-effect waves-light grey lighten-1"><i class="material-icons">info_outline</i></button></center>
