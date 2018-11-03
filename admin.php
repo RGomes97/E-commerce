@@ -44,6 +44,7 @@
           <li><a href="adm_cadastro.php"><i class="material-icons">account_circle</i>Cadastrar usuarios</a></li>
           <li><a href="cadastro_produto.php"><i class="material-icons">input</i>Cadastrar produtos</a></li>
           <li><a href="#!"><i class="material-icons">done_all</i>Cadastrar pedidos</a></li>
+          <li><a href="editar_produtos.php"><i class="material-icons">done_all</i>Editar produtos</a></li>
           <li><div class="divider"></div></li>
           <li><a class="subheader">Mais</a></li>
           <li><a class="waves-effect" href="adm_users.php"><i class="material-icons">perm_identity</i>Excluir usuarios</a></li>

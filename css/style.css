@@ -31,6 +31,8 @@ table.striped > tbody > tr:nth-child(odd) {
 
 .colunaesq{
 	padding-top: 10px;
+	position: sticky !important;
+	top: 150px !important;
 }
 
 #divcarousel{

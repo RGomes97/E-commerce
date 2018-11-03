@@ -25,7 +25,13 @@
 			return $stmt->insert_id;
 		}
 		public function listar($tipo){
-			$sql = "SELECT * FROM produtos WHERE tipo = '{$tipo}'";
+			$sql = "SELECT * FROM produtos WHERE tipo = '{$tipo}' ORDER BY preco";
+			$query = $this->db->query($sql);
+			return $query->fetch_all(MYSQLI_ASSOC);
+		}
+
+		public function listarUm($id){
+			$sql = "SELECT * FROM produtos WHERE id = {$id}";
 			$query = $this->db->query($sql);
 			return $query->fetch_all(MYSQLI_ASSOC);
 		}
@@ -42,23 +48,24 @@
 			return $query->fetch_all(MYSQLI_ASSOC);
 		}
 
+		public function listarProdutosComFiltro($campo, $filtro){
+			$sql = "SELECT * FROM produtos where {$campo} like '%{$filtro}%'";
+			$query = $this->db->query($sql);
+			return $query->fetch_all(MYSQLI_ASSOC);	
+		}
+
 		public function update(){
 			$stmt = $this->db->stmt_init();
-			$stmt->prepare('UPDATE produtos SET nome = ?, email = ? WHERE id = ?');
-			$stmt->bind_param('ssi',$this->nome,$this->email,$this->id);
+			$stmt->prepare('UPDATE produtos SET nome = ?, preco = ?, descricao = ? WHERE id = ?') or die($stmt->error);
+			$stmt->bind_param('sssi',$this->nome,$this->preco,$this->descricao,$this->id);
 			$stmt->execute();
-			echo ' foi atualizado o produtos numero : ';
 			return $stmt->execute();
-
 		}
 		public function delete($id){
 			$stmt = $this->db->stmt_init();
 			$stmt->prepare('DELETE FROM produtos WHERE id = ?');
 			$stmt->bind_param('i',$id);
 			return $stmt->execute();
-
-
-			
 		}
 		public function login(){ 		
 			$stmt = $this->db->stmt_init();

@@ -32,6 +32,9 @@ $return = $produto->listar('bloco');
      <div class="col s12 m12 l9">
      <h4 style="background-color: #1abc9c; color: white; border-radius: 20px;"> Blocos </h4>
      </div>
+     <div class="col s12 m12 l9">
+     
+     </div>
 	<div class="col s12 m12 l9">
 	<?php
 		if($return == null){
